@@ -1,0 +1,20 @@
+/* FILEPATH: /Users/nsip/Downloads/Springboard Boot Camp/React/React_Events_States/new_app/src/ImageRender.css */
+
+/* Set the max width and height for the image */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Center the image within its container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Add a border to the image */
+img {
+  border: 1px solid black;
+}

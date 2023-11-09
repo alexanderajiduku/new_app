@@ -1,0 +1,44 @@
+/* Counter.css */
+.counter {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .counter h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  
+  .counter-increment {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #cebe16;
+    border-radius: 5px;
+    background-color: #f0e37d;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s;
+    color: black;
+  }
+  
+  .counter-increment:hover {
+    background-color: #dff43f;
+  }
+  
+  .counter-decrement {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #F44336;
+    border-radius: 5px;
+    background-color: #EF5350;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s;
+    color: black;
+  }
+  
+  .counter-decrement:hover {
+    background-color: #E57373;
+  }

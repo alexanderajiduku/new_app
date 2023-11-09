@@ -1,0 +1,35 @@
+/* NumberGame.css */
+.NumberGame {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .NumberGame h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .winner {
+    color: #4CAF50; /* Green color for the winner */
+  }
+  
+  .loser {
+    color: #F44336; /* Red color for the loser */
+  }
+  
+  .NumberGame button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .NumberGame button:hover {
+    background-color: #e9e9e9;
+    border-color: #ccc;
+  }
+  

@@ -1,0 +1,36 @@
+/* ButtonGroup.css */
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .buttonGroup button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buttonGroup button:hover {
+    opacity: 0.9;
+  }
+  
+  .buttonGroup-red {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .buttonGroup-blue{
+    background-color: #4d88ff;
+    color: white;
+  }
+  
+  .buttonGroup-green {
+    background-color: #4dff88;
+    color: white;
+  }
+  
